@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          C:\Users\student\LRI2\SoC/drivers/led_axi_ip_v1_00_a/data/led_axi_ip_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Tue Mar 25 15:35:47 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER led_axi_ip
+
+  OPTION supported_peripherals = (led_axi_ip);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

@@ -1,0 +1,14 @@
+##############################################################################
+## Filename:          C:/Users/student/LRI2/SoC/pcores/uart_cntrl_v1_00_a/data/uart_cntrl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Mar 27 15:00:40 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib uart_cntrl_v1_00_a user_logic vhdl
+lib uart_cntrl_v1_00_a uart_cntrl vhdl
+lib uart_cntrl_v1_00_a BaudRateGenerator vhdl
+lib uart_cntrl_v1_00_a UARTReciever vhdl
+lib uart_cntrl_v1_00_a UARTTransmitter vhdl
+lib uart_cntrl_v1_00_a UARTController vhdl

@@ -1,0 +1,9 @@
+-batch 
+-create led_axi_ip 
+-ver 1.00.a 
+-dir "C:\Users\student\LRI2\SoC" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 1 
+-xps 
+-driver 
